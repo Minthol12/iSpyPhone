@@ -371,7 +371,7 @@ class iSpyPhone:
         self.extract_tempail_data()
         self.extract_tempymail_data()
         self.extract_tempmail_data()
-        self.extract_temp-mail_data()
+        self.extract_temp_mail_data()
         self.extract_tempemailaddress_data()
         self.extract_tempemailgenerator_data()
         self.extract_tempemailservice_data()
