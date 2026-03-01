@@ -80,7 +80,7 @@ class iSpyPhone:
         self.data = {}
         self.extracted_files = []
         self.report_file = f"iSpyPhone_Report_{self.start_time.strftime('%Y%m%d_%H%M%S')}"
-        self.temp_dir = f"/tmp/ispyphone_{random.randint(1000,9999)}"
+        self.temp_dir = os.path.join(os.getcwd(), f".ispyphone_temp_{random.randint(1000,9999)}")
         self.total_secrets = 0
         self.extraction_speed = 0
         self.threads = []
