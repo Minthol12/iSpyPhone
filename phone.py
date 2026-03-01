@@ -19,8 +19,8 @@ import sqlite3
 import plistlib
 import glob
 import stat
-import pwd
-import grp
+#import pwd
+#import grp
 import hashlib
 import base64
 import binascii
